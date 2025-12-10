@@ -13,12 +13,12 @@ The goal is to build a strong foundation in identity, access, monitoring, and se
 - Shared Responsibility Model notes
 
 ## 📂 Repository Structure
--aws-iam/
--aws-vpc/
--aws-logging-monitoring/
--aws-s3-security/
--diagrams/
--notes/
+- aws-iam/
+- aws-vpc/
+- aws-logging-monitoring/
+- aws-s3-security/
+- diagrams/
+- notes/
 
 ## 🎯 Objectives
 - Develop practical cloud security skills  
