@@ -1,0 +1,11 @@
+name: IaC security scan
+on: [push, pull_request]
+jobs:
+  checkov:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: bridgecrewio/checkov-action@v12
+        with:
+          directory: terraform/
+          soft_fail: true
